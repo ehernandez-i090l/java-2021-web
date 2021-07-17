@@ -1,3 +1,77 @@
+/*Selector universal*/
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Selector por etiqueta*/
+header {
+    background: rgb(42, 42, 97);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    background: rgb(42, 42, 97);
+    text-align: center;
+    color: white;
+    line-height: 70px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+footer a {
+    color: aliceblue;
+}
+
 img {
     height: 190px;
 }
+
+/*Selector por Id*/
+
+#contenido {
+    border: 2px solid rgb(54, 38, 200);
+    padding: 10px;
+    text-align: center;
+}
+
+#descripcion {
+    text-align: left;
+    font-style: italic;
+    text-decoration: underline;
+    margin: 15px;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eee;
+    list-style-type: none;
+
+}
+
+#menu ul li a {
+    display: block;
+    padding: 15px;
+    color: #444;
+}
+
+#menu ul li:hover {
+    background: rgb(16, 75, 143);
+    cursor: pointer;
+}
+
+#menu ul li:hover a{
+    color: white;
+}
+
