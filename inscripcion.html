@@ -23,11 +23,27 @@
         </nav>
         <hr>
         <div id="contenido">
-            <p>
-                Kinal es un Centro Educativo privado, no lucrativo, dirigido a la formación técnica profesional de jóvenes y adultos, de beneficio colectivo y asistencia social en favor de los sectores más necesitados de la comunidad.
-                Nuestro valor fundamental es enseñar a realizar el trabajo bien hecho, que sea la base de la superación de alumnos y el medio para servir a los demás.
-            </p>
-            <img src="./assets/images/principal.png" alt="Kalum">
+            <h2>Fecha de inscripción</h2>
+            <form action="">
+                <p>
+                    <label for="carne">Carné</label>
+                    <div>
+                        <input type="text" name="carne">
+                        <button>Buscar</button>
+                    </div>
+                </p>
+                <p>
+                    <label for="clase">Clases:</label>
+                    <select name="clase">
+                        <option value="seleccionar">Seleccionar</option>
+                        <option value="BCK-JAV">BackEnd Java</option>
+                        <option value="BCK-DOTNET">BackEnd DotNet Core 3.1</option>
+                        <option value="FRO-ANGULAR">FrontEnd Angular</option>
+                        <option value="FRO-REACT">FrontEnd React JS</option>
+                    </select>
+                </p>
+                <input type="submit" value="Registrar">
+            </form>
         </div>
         <footer>
             Todos los derechos reservados &copy; V1.0.0
