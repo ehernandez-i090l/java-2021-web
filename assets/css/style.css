@@ -110,3 +110,11 @@ input[type="submit"], button {
     border: 1px solid black;
     cursor: pointer;
 }
+
+.contacto-item-flex {
+    display: grid !important;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-gap: 5px 50px;
+}
